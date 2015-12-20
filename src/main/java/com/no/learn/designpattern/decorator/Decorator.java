@@ -1,6 +1,6 @@
 /**
  * Copyright: no.com. All Rights Reserved.
- * @author: nohappy
+ * @author: noworry
  */
 
 package com.no.learn.designpattern.decorator;
