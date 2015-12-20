@@ -5,5 +5,11 @@
 
 package com.no.learn.designpattern.decorator;
 
-public class Decorator {
+public abstract class Decorator implements Component {
+    Component component;
+
+    protected Decorator(Component component) {
+        this.component = component;
+    }
+
 }
