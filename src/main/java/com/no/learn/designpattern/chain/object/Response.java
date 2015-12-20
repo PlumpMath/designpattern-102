@@ -1,8 +1,10 @@
+/**
+ * Copyright: no.com. All Rights Reserved.
+ * @author: nohappy
+ */
+
 package com.no.learn.designpattern.chain.object;
 
-/**
- * @author: suolongxiang  Date: 15/12/20 Time: 下午3:45
- */
 public class Response {
 
     private String response;
