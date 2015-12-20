@@ -1,13 +1,14 @@
+/**
+ * Copyright: no.com. All Rights Reserved.
+ * @author: nohappy
+ */
+
 package com.no.learn.designpattern.chain;
 
-import com.no.learn.designpattern.chain.Handler;
 import com.no.learn.designpattern.chain.object.Level;
 import com.no.learn.designpattern.chain.object.Request;
 import com.no.learn.designpattern.chain.object.Response;
 
-/**
- * @author: suolongxiang  Date: 15/12/20 Time: 下午4:01
- */
 public class HandlerB extends Handler {
     @Override
     protected Level getLevel() {

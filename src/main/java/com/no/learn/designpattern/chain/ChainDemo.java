@@ -1,11 +1,13 @@
+/**
+ * Copyright: no.com. All Rights Reserved.
+ * @author: nohappy
+ */
+
 package com.no.learn.designpattern.chain;
 
 import com.no.learn.designpattern.chain.object.Level;
 import com.no.learn.designpattern.chain.object.Request;
 
-/**
- * @author: suolongxiang  Date: 15/12/20 Time: 下午4:03
- */
 public class ChainDemo {
 
     public static void main(String[] args){
@@ -17,6 +19,6 @@ public class ChainDemo {
         Level level = new Level(2);
         request.setLevel(level);
 
-        System.err.println(handlerA.handleRequest(request).getReponse());
+        System.err.println(handlerA.handleRequest(request).getResponse());
     }
 }

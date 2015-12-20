@@ -2,9 +2,9 @@
  * Copyright: no.com. All Rights Reserved.
  * @author: nohappy
  */
+
 package com.no.learn.designpattern.chain;
 
-import com.no.learn.designpattern.chain.Handler;
 import com.no.learn.designpattern.chain.object.Level;
 import com.no.learn.designpattern.chain.object.Request;
 import com.no.learn.designpattern.chain.object.Response;
