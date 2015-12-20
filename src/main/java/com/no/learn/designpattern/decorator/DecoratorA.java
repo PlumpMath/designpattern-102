@@ -13,6 +13,10 @@ public class DecoratorA extends Decorator {
 
     @Override public void operation() {
         component.operation();
+        addOperation();
+    }
+
+    private void addOperation() {
         System.out.println("This is an added operation of decoratorA.");
     }
 }
