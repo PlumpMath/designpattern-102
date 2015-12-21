@@ -1,13 +1,7 @@
-/* ****************************************************
- * Copyright (C) 2015 iQIYI.COM - All Rights Reserved
- *
- * This file is part of search.
- * Unauthorized copy of this file, via any medium is strictly prohibited.
- * Proprietary and Confidential.
- *
- * Author(s): Yuran Zhang <zhangyuran@qiyi.com>
- *
- * ******************************************************/
+/**
+ * Copyright: no.com. All Rights Reserved.
+ * @author: noworry
+ */
 
 package com.no.learn.designpattern.singleton;
 
