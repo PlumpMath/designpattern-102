@@ -2,6 +2,7 @@
  * Copyright: no.com. All Rights Reserved.
  * @author: nohappy
  */
+
 package com.no.learn.designpattern.chain.object;
 
 public class Level {

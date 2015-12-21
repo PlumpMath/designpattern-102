@@ -6,6 +6,7 @@
 package com.no.learn.designpattern.chain.object;
 
 public class Request {
+
     private Level level;
 
     public Level getLevel() {
