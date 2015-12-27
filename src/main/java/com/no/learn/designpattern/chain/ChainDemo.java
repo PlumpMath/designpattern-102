@@ -11,8 +11,8 @@ import com.no.learn.designpattern.chain.object.Request;
 public class ChainDemo {
 
     public static void main(String[] args){
-        HandlerA handlerA = new HandlerA();
-        HandlerB handlerB = new HandlerB();
+        Handler handlerA = new HandlerA();
+        Handler handlerB = new HandlerB();
         handlerA.setNext(handlerB);
 
         Request request = new Request();
